@@ -1,8 +1,8 @@
 FROM golang
 
-ADD . /go/src/github.com/gregbuehler/decho
+ADD . /go/src/gitlab.com/gregbuehler/decho
 
-RUN go install github.com/gregbuehler/decho
+RUN go install gitlab.com/gregbuehler/decho
 
 ENTRYPOINT /go/bin/decho
 
